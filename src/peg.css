@@ -1,0 +1,24 @@
+
+.border {
+    fill: none;
+}
+
+.hole {
+    fill: #fff;
+}
+
+.peg {
+    fill: #6cf;
+}
+
+.peg.disabled {
+    fill: #888;
+}
+
+.peg-group:hover .border {
+    fill: #000;
+}
+
+.selected {
+    fill: #28b;
+}
