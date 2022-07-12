@@ -4,21 +4,21 @@
 }
 
 .hole {
-    fill: #fff;
+    fill: #5a6670;
 }
 
 .peg {
     fill: #6cf;
 }
 
-.peg.disabled {
-    fill: #888;
+.peg.selected {
+    fill: #ff66db;
 }
 
 .peg-group:hover .border {
-    fill: #000;
+    fill: #5a6670;
 }
 
 .selected {
-    fill: #28b;
+    fill: #6cf;
 }

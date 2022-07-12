@@ -292,7 +292,7 @@
     {
         "cx": 220,
         "cy": 27,
-        "disabled": true,
+        "disabled": false,
         "id": 14,
         "moves": [
             {

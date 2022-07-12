@@ -6,8 +6,8 @@ export const Peg = (props: PegDataType & PegMethodsType) => {
         <circle
             cx={props.cx}
             cy={props.cy}
-            r="8"
-            className={props.disabled ? "peg disabled" : "peg"}
+            r="10"
+            className={`peg ${props.selected ? "selected" : ""} ${props.disabled ? "disabled" : ""}`}
         >
         </circle>
     );
@@ -23,12 +23,12 @@ export const Peg = (props: PegDataType & PegMethodsType) => {
             <circle
                 cx={props.cx}
                 cy={props.cy}
-                r="13"
-                className={props.selected ? "hole selected" : "hole"}
+                r="12"
+                className="hole"
             >
             </circle>
             {props.occupied ? pegCircleJSX : ''}
-            <text x={props.cx} y={props.cy} transform="translate(0,5)" textAnchor='middle'>{props.id}</text>
+            {/* <text x={props.cx} y={props.cy} transform="translate(0,5)" textAnchor='middle'>{props.id}</text> */}
         </g>
     );
 }
