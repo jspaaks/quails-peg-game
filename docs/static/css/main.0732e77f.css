@@ -1,0 +1,2 @@
+body{font-family:sans-serif;margin:0}.app{display:flex;flex-direction:row;justify-content:center}svg{background-color:#ddd;height:220px;margin-top:30px;width:240px}.flip{-webkit-transform:scaleY(-1);transform:scaleY(-1)}.border{fill:none}.hole{fill:#5a6670}.peg{fill:#6cf}.peg.selected{fill:#ff66db}.peg-group:hover .border{fill:#5a6670}.selected{fill:#6cf}
+/*# sourceMappingURL=main.0732e77f.css.map*/

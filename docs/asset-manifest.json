@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/quails-peg-game/static/css/main.0732e77f.css",
+    "main.js": "/github.io/quails-peg-game/static/js/main.ccc92d80.js",
+    "index.html": "/github.io/quails-peg-game/index.html",
+    "main.0732e77f.css.map": "/github.io/quails-peg-game/static/css/main.0732e77f.css.map",
+    "main.ccc92d80.js.map": "/github.io/quails-peg-game/static/js/main.ccc92d80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0732e77f.css",
+    "static/js/main.ccc92d80.js"
+  ]
+}
